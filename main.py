@@ -18,3 +18,5 @@ print(num1,'+', num2, '=', res)
 
 res = sub_func(num1, num2)
 print(num1,'-', num2, '=', res)
+
+
