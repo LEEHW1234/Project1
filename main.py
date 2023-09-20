@@ -2,10 +2,19 @@
 def add_func(n1, n2):
     return n1+n2
 
+
+def sub_func(n1, n2):
+    return n1-n2
+
+
 ## 전역 변수부
-num = 100
-num1 = 200
+num1 = 100
+num2 = 200
+
 
 ##메인 코드부
-res = add_func(num, num1)
-print(num,'+', num1, '=', res)
+res = add_func(num1, num2)
+print(num1,'+', num2, '=', res)
+
+res = sub_func(num1, num2)
+print(num1,'-', num2, '=', res)
